@@ -1,19 +1,11 @@
 
 [[headers]]
-for = "/css/*/fonts/*.woff"
+for = "/fonts/*.woff"
 [headers.values]
-Access-Control-Allow-Origin = "https://gpcshopian.in"
+Access-Control-Allow-Origin = "*"
 Content-Type = "application/font-woff"
 [[headers]]
-for = "/css/*/fonts/*.ttf"
+for = "/fonts/*.ttf"
 [headers.values]
-Access-Control-Allow-Origin = "https://gpcshopian.in"
+Access-Control-Allow-Origin = "*"
 Content-Type = "application/font-ttf"
-[[headers]]
-for = "/css/*"
-[headers.values]
-Access-Control-Allow-Origin = "https://gpcshopian.in"
-[[headers]]
-for = "/css/*/*"
-[headers.values]
-Access-Control-Allow-Origin = "https://gpcshopian.in"
