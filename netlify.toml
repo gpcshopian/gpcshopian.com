@@ -9,3 +9,11 @@ for = "/fonts/*.ttf"
 [headers.values]
 Access-Control-Allow-Origin = "https://gpcshopian.in"
 Content-Type = "application/font-ttf"
+[[headers]]
+for = "/css/*"
+[headers.values]
+Access-Control-Allow-Origin = "https://gpcshopian.in"
+[[headers]]
+for = "/css/*/*"
+[headers.values]
+Access-Control-Allow-Origin = "https://gpcshopian.in"
