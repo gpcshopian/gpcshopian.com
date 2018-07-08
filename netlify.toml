@@ -1,11 +1,11 @@
 
 [[headers]]
-for = "../fonts/*.woff"
+for = "/css/*/fonts/*.woff"
 [headers.values]
 Access-Control-Allow-Origin = "https://gpcshopian.in"
 Content-Type = "application/font-woff"
 [[headers]]
-for = "../fonts/*.ttf"
+for = "/css/*/fonts/*.ttf"
 [headers.values]
 Access-Control-Allow-Origin = "https://gpcshopian.in"
 Content-Type = "application/font-ttf"
