@@ -1,4 +1,11 @@
+
 [[headers]]
-  for = "/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
+for = "/fonts/*.woff"
+[headers.values]
+Access-Control-Allow-Origin = "*"
+Content-Type = "application/font-woff"
+[[headers]]
+for = "/fonts/*.ttf"
+[headers.values]
+Access-Control-Allow-Origin = "*"
+Content-Type = "application/font-ttf"
